@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int maxx = 10000;
+const int maxx = INT_MAX;
 vector<int> g[maxx];
 vector<int> match1, match2;
 vector<bool> used;
